@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Products</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+<div id="products" class="content">
+    <div class="page-header">
+    <div id="count" class="count"></div>
+        <div class="select">
+            <select name="sort" value="sort">
+                <option value="Popularity">Sort By: Popularity</option>
+                <option value="priceAscending">Sort By: Price Ascending</option>
+                <option value="priceDescending">Sort By: Price Descending</option>
+                <option value="nameAscending">Sort By: Name</option>
+            </select>
+        </div>
+    </div>
+</div>
+<!----- script goes here ------>
+<script src="js/main.js"></script>
 </body>
 </html>

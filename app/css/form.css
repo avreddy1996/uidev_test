@@ -1,0 +1,26 @@
+/*==== initialising the css with body ===*/
+body,html{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #252525;
+    margin: 0;
+    padding: 0;
+    background: #dedede;
+}
+/*===== form css goes here ==*/
+.form{
+    width: 75%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.form form div{
+    padding: 1rem 0;
+}
+.form form div label{
+    display: block;
+}

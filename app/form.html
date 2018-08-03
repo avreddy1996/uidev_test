@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form</title>
+    <!---------- CSS links here ---------->
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-    
+    <div class="form">
+        <form name="sampleForm" id="sampleForm">
+            <div>
+                <label>Name</label>
+                <input name="name" type="text" value="name" required data-value-required="Required">
+            </div>
+            <div>
+                <label>Surname</label>
+                <input name="surname" type="text" value="surname" required data-value-required="Required">
+            </div>
+            <div>
+                <label>Email</label>
+                <input name="email" type="email" value="email" required data-value-required="Required" data-value-pattern="Enter Correct Email address">
+            </div>
+            <div>
+                <label>Phone</label>
+                <input name="phone" type="number" value="phone" required data-value-required="Required" data-value-pattern="Enter correct phone number">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<!----- javascript goes here ------>
+<script src="js/form.js"></script>
 </body>
 </html>
