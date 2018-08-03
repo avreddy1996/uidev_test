@@ -24,3 +24,25 @@ body,html{
 .form form div label{
     display: block;
 }
+.form form div input{
+    margin: 0.5rem 0;
+    padding: 0.4rem 0.2rem;
+    border: 1px solid #dedede;
+}
+.form form div input:focus{
+    border-bottom-color: #299e26;
+    outline: none;
+}
+.form form div input:focus:invalid{
+    border-bottom-color: red;
+}
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

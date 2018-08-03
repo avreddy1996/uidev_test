@@ -13,19 +13,19 @@
         <form name="sampleForm" id="sampleForm">
             <div>
                 <label>Name</label>
-                <input name="name" type="text" value="name" required data-value-required="Required">
+                <input name="name" type="text" required data-value-required="Required">
             </div>
             <div>
                 <label>Surname</label>
-                <input name="surname" type="text" value="surname" required data-value-required="Required">
+                <input name="surname" type="text"  required data-value-required="Required">
             </div>
             <div>
                 <label>Email</label>
-                <input name="email" type="email" value="email" required data-value-required="Required" data-value-pattern="Enter Correct Email address">
+                <input name="email" type="email" required data-value-required="Required" data-value-pattern="Enter Correct Email address">
             </div>
             <div>
                 <label>Phone</label>
-                <input name="phone" type="number" value="phone" required data-value-required="Required" data-value-pattern="Enter correct phone number">
+                <input name="phone" type="number" min="7000000000" max="9999999999" required data-value-required="Required" data-value-pattern="Enter correct phone number">
             </div>
             <button type="submit">Submit</button>
         </form>
